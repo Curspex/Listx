@@ -1,7 +1,6 @@
 package sx.cur.omnivion.listx.listener;
 
 import org.bukkit.event.Event;
-import org.bukkit.event.EventException;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.EventExecutor;
 
@@ -23,7 +22,7 @@ public abstract class LxListener implements EventExecutor, Listener {
 	}
 	
 	@Override
-	public void execute(Listener listener, Event mevent) throws EventException
+	public void execute(Listener listener, Event mevent)// throws EventException
 	{
 		if (!(mevent.getClass() == this.getClazz())) return;
 		this.dispatch(mevent);
