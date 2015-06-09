@@ -1,0 +1,23 @@
+### PLUGIN BY OMNIVION ###
+# https://github.com/8rrico
+# https://github.com/curspex
+# http://cur.sx/omnivion
+# http://www.spigotmc.org/members/omnivion.6705/
+### PLUGIN BY OMNIVION ###
+
+permissionBase: 'listx.staff.'
+
+# GROUPS:
+# HIGHEST RANK TO LOWEST RANK
+groups:
+  - admin
+  - mod
+  - helper
+
+# FORMAT
+format:
+  - '&m----&r[ DANK MEMES ]&m----'
+  - '&eTotal: &6<online>'
+  - '&cAdmins: <admin>'
+  - '&bMods: <mod>'
+  - '&cHelperz: <helper>'

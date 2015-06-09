@@ -1,0 +1,8 @@
+name: Listx
+main: sx.cur.omnivion.listx.Listx
+version: 1.0.1
+commands:
+  listx:
+    description: List online staff
+    aliases: [who, online, list]
+    usage: /<command>
