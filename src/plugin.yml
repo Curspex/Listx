@@ -1,6 +1,9 @@
 name: Listx
 main: sx.cur.omnivion.listx.Listx
 version: 1.0.1
+author: Omnivion
+database: false
+website: http://cur.sx
 commands:
   listx:
     description: List online staff
