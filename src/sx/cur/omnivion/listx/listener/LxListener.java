@@ -22,7 +22,7 @@ public abstract class LxListener implements EventExecutor, Listener {
 	}
 	
 	@Override
-	public void execute(Listener listener, Event mevent)// throws EventException
+	public final void execute(Listener listener, Event mevent)// throws EventException
 	{
 		if (!(mevent.getClass() == this.getClazz())) return;
 		this.dispatch(mevent);
