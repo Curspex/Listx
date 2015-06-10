@@ -11,7 +11,7 @@ public class LxConfiguration {
 
 	private final Listx i;
 	private FileConfiguration config;
-	public LxConfiguration (Listx i)
+	public LxConfiguration(Listx i)
 	{
 		this.i = i;
 		this.config = i.getConfig();
